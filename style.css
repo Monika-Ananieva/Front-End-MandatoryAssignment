@@ -1,0 +1,91 @@
+/* Background Image */
+html {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+}
+
+.grid-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%;
+    display: grid;
+    /* Define Auto Row size */
+    grid-auto-rows: 500px;
+    /*Define our columns */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+img {
+    width: 300px;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 25px 6px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 25px 6px rgba(255,0,0,1);
+    box-shadow: 0px 0px 25px 6px rgba(255,0,0,1);
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movie-details {
+    display: none;
+}
+
+h3 {
+    font-family: 'Nosifer', cursive;
+    font-size:40px;
+    background-size: 500px;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-color: #fefff7;
+    background-image: -webkit-linear-gradient(30deg, rgb(255, 0, 0) 25%, transparent 25%, transparent 50%, rgb(255, 0, 0) 50%, rgb(255, 0, 0) 75%, transparent 75%, transparent);
+}
+
+h4 {
+    font-family: 'Titan One', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.details-text {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+button {
+    border: 3px solid white;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 120px;
+    height: 40px;
+    /* background: url(images/pattern01.jpg) repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+button:hover {
+    border: 3px solid #FF0000;
+    color: #FF0000;
+    transform: scale(1.1) rotate(10deg) rotate(-10deg);
+
+}
