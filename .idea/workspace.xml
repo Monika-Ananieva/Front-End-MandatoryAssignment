@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d3b67d6-fa47-4aef-a84f-d94533ca009b" name="Default Changelist" comment="" />
+    <list default="true" id="7d3b67d6-fa47-4aef-a84f-d94533ca009b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +61,22 @@
       <workItem from="1574148266131" duration="522000" />
       <workItem from="1574153407131" duration="3279000" />
       <workItem from="1574159810977" duration="1384000" />
+      <workItem from="1574276071046" duration="723000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

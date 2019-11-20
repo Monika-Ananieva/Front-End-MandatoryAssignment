@@ -79,7 +79,7 @@ function loadMovie(movieIndex) {
 
     let movie = movies[movieIndex];
 
-    fetch('http://www.omdbapi.com/?apikey=2d913d20&t=' + movie.title)
+    fetch('https://www.omdbapi.com/?apikey=2d913d20&t=' + movie.title)
         .then(response => {
             return response.json();
         })
