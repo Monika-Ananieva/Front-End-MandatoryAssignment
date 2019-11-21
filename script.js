@@ -61,6 +61,7 @@ function loadCatalogue() {
         // Add the movie's image
         let imageElement = document.createElement('img');
         imageElement.src = imageUrl;
+        imageElement.alt = "movie-poster";
         movieElement.appendChild(imageElement);
 
         // Add the built movie element to the container
